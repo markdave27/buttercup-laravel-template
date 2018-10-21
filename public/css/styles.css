@@ -1,0 +1,59 @@
+.add-button:before {
+    font-family: FontAwesome;
+    content: "\f067";
+}
+
+.add-button {
+    margin-left: 10px;
+}
+
+.edit-button:before {
+    font-family: FontAwesome;
+    content: "\f044";
+}
+
+.delete-button:before {
+    font-family: FontAwesome;
+    content: "\f1f8"
+}
+
+.delete-button {
+    margin-left: 10px;
+}
+
+.col-id {
+    width: 10px;
+    text-align: center;
+}
+
+.col-action {
+    width: 150px;
+    text-align: center;
+}
+
+table.dataTable tbody td {
+    vertical-align: middle;
+}
+
+.btn-back {
+    margin-left: 15px;
+}
+
+.checkbox-inline-fix {
+    margin-left: 0 !important;
+    margin-right: 20px;
+}
+
+.checkbox-inline-fix:last-child {
+    margin-right: 0;
+}
+
+.cell-center {
+    margin: auto;
+    text-align: center;
+}
+
+.margin-top-10 {
+    display: inline-block;
+    margin-top: 10px;
+}
