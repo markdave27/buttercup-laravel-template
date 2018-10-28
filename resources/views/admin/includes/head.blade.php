@@ -32,6 +32,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Bootstrap Float Label -->
     <link rel="stylesheet" href="{{ asset('/bower_components/bootstrap-float-label/bootstrap-float-label.min.css') }}">
 
+    <!-- Bootstrap Datetime Picker -->
+    <link rel="stylesheet" href="{{ asset('/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css') }}">
+
     <link rel="stylesheet" href="{{ asset('/css/styles.css') }}">
 
     @yield('page-styles')

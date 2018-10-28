@@ -15,6 +15,10 @@
 <!-- AdminLTE App -->
 <script src="{{ asset('/bower_components/AdminLTE/dist/js/app.min.js') }}"></script>
 
+<!-- Datetime Picker -->
+<script src="{{ asset('/bower_components/moment/min/moment.min.js') }}"></script>
+<script src="{{ asset('/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js') }}"></script>
+
 <!-- Load admin main JS -->
 <script src="{{ asset('/js/admin/admin.js') }}"></script>
 
