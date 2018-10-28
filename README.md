@@ -24,6 +24,7 @@ Run Buttercup Laravel Template on your server
  - Generate application key by running php `artisan key:generate`  
  - Create the database tables via migration by running `php artisan migrate`  
  - Populate database tables with initial data by running `php artisan db:seed`  
+ - Navigate to the public folder and then run `bower install` to setup the front-end dependencies 
  - Follow the guide in setting up [Laravel Snappy](https://github.com/barryvdh/laravel-snappy) 
   
 Local Host Additional Setup  
@@ -47,10 +48,11 @@ Working Features
  - Account activation via email confirmation (to enable and disable this update the .env variable SETTINGS_SEND_ACTIVATION_EMAIL
  - DataTables with Button index page with PDF, CVS and Excel export
  - Customizable validation error messages
- -  Structured controller, models and views
+ - Structured controller, models and views
  - Bower managed resources (found at the public folder)
  - Templated / dynamic controller setup (just copy - paste and modify)
  - Templated / dynamic views (just copy - paste and modify)
+ - Integrated event logger / logging helper
 
 ## Planned Future Features
 - Generator for controller, model, migration, seeder, sample / test data and views
